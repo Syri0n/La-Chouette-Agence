@@ -538,6 +538,9 @@ button {
     opacity: 1;
 }
 
+.social span{
+    padding: 1rem;
+}
 a[data-lightbox] {
     position: relative;
     display: block;
