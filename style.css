@@ -788,10 +788,12 @@ h4 {
 }
 
 .tc-white {
+    position: relative;
     color: #F3976C!important;
     font-weight: 700;
 }
 .tc-grey{
+    position: relative;
     color: #333!important;
     font-weight: 700;
 }
