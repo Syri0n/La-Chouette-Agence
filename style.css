@@ -1,3 +1,11 @@
+@font-face {
+    font-family: "et-line";
+    src: url(./fonts/et-line.eot);
+    src: url(./fonts/et-line.eot?#iefix) format('embedded-opentype'), url(./fonts/et-line.woff) format('woff'), url(./fonts/et-line.ttf) format('truetype'), url(./fonts/et-line.svg#et-line) format('svg');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
 
 body {
     margin: 0;
@@ -92,7 +100,7 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.webp");
+    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -744,7 +752,6 @@ h4 {
 }
 
 .icons {
-    padding: 1rem;
     margin-bottom: 14px;
     margin-top: 24px;
 }
@@ -845,12 +852,6 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
-.social__icons{
-    font-size: 3rem;
-}
-.social__icons :hover{
-    color: white;
-}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1050,9 +1051,7 @@ h4 {
         height: 320px;
     }
 }
-.text-center{
-    padding: 1rem;
-}
+
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
