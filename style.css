@@ -845,6 +845,12 @@ h4 {
     background-image: url("img/image-de-presentation.webp");
 }
 
+.social__icons{
+    font-size: 3rem;
+}
+.social__icons :hover{
+    color: white;
+}
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
