@@ -530,8 +530,11 @@ button {
     opacity: 1;
 }
 
-.social span{
-    padding: 1rem;
+.social__icons {
+    font-size: 3rem;
+}
+.social__icons :hover{
+    color: #FFFFFF;
 }
 a[data-lightbox] {
     position: relative;
